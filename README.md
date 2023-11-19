@@ -2,4 +2,4 @@
 
 Producer Island
 
-We utilize a MP3 music player for this project with the usage of an API.
+We made a website to allow for beats to be downloaded through the usage of a YouTube API.
