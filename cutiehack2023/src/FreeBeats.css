@@ -1,0 +1,36 @@
+/* freebeats.css */
+
+/* Style for the button */
+.free-beats-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url('/Users/javi/Documents/UCR/CutieHack2023/cutiehack2023/public/island-svgrepo-com.svg'); /* Relative path to the image */
+    background-size: cover; /* Adjust the background size as needed */
+    display: inline-block;
+    overflow: hidden; /* Ensures text doesn't spill out */
+}
+
+/* Style for the text on top of the button */
+.button-text {
+    color: white;
+    font-weight: bold;
+    font-size: 100px; /* Adjust the font size as needed */
+    position: relative;
+    z-index: 1; /* Place text above the background image */
+}
+
+/* Style for the "Free" text */
+.free {
+    margin-right: -10px; /* Adjust the spacing between "Free" and "Beats" */
+}
+
+/* Style for the "Beats" text */
+.beats {
+    position: relative;
+    left: -10px; /* Adjust the positioning of "Beats" */
+}
